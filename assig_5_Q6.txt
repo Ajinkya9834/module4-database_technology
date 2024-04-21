@@ -1,0 +1,9 @@
+6) What is a simpler way to write this query? 
+ 
+ Select snum, sname, city, comm From Salespeople 
+where (comm > .12 OR comm <.14);
+
+
+
+--> select snum,sname,city,comm, from salespeople
+  where between .12 and .14;
